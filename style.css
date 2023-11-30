@@ -1,10 +1,14 @@
-/* body{
+body{
     background-color: black;
+    
+    
+}
+.form{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     color: chartreuse;
-} */
+}
 h1,p{
     text-align: center;
     color: chartreuse;
@@ -57,6 +61,9 @@ textarea{
   height: fit-content;
   width: 400px;  
     
+}
+.table{
+   margin-top: 2%;
 }
 
 
