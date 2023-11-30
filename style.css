@@ -1,0 +1,63 @@
+/* body{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: chartreuse;
+} */
+h1,p{
+    text-align: center;
+    color: chartreuse;
+}
+
+form {
+    
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+label[for="male"], label[for="female"] {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+select, input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+select, input {
+    background-size: 12px;
+    background-position: right center;
+    padding-right: 20px;
+}
+
+option {
+   background-color: aqua;
+}
+
+textarea{
+    
+  height: fit-content;
+  width: 400px;  
+    
+}
+
+
+
